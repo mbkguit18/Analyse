@@ -105,7 +105,7 @@ export async function genDocx(data, classes) {
     //   new Paragraph({
     //     children: new TextRun(`من خلال الجدول اعلاه نلاحض ان قيمة معدل جميع المتغيرات بلغت  `)
     //   })
-    // ])
+    // ]),
   })
   console.log(tables)
   const doc = new docx.Document({
